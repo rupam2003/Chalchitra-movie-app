@@ -15,7 +15,7 @@ const Header = () => {
   }
   return (
     <header className='bg-black bg-opacity-30 '>
-        <section className='m-auto card-container flex py-2 mb-2 justify-between'>
+        <section className='m-auto max-w-[810px] flex py-2 mb-2 justify-between'>
         <Link  href={'/'}  className='flex font-bold ml-2 text-2xl'>
           <PiFilmReel className='text-3xl mx-1'/>
           CHALCHITRA
