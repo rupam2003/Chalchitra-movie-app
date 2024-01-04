@@ -77,6 +77,9 @@ button{
   .detail-page{
     flex-direction: column;
   }
+  .card-container{
+  max-width: 324px;
+}
   .img-container{
     
     align-self: center;
