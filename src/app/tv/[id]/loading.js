@@ -5,7 +5,7 @@ const loading = () => {
     <div
     className=" h-screen overflow-y-scroll">
       <Header/>
-      <article className="card-container detail-page flex m-auto">
+      <article className=" detail-page flex m-auto">
         
     
       <div className='img-container mx-2 loading-bar min-w-[220px] h-[330px] rounded-xl '></div>        
