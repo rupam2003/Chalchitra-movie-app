@@ -17,7 +17,7 @@ const page = async ({params}) => {
       className=" h-screen overflow-y-scroll bg-no-repeat bg-cover bg-center "
       style={{ backgroundImage:`linear-gradient(#04152df1,#04152df1),url(${img_base_url + TvDetails.backdrop_path})`}}>
         <Header/>
-        <article className=" card-container detail-page flex m-auto">
+        <article className="detail-page flex m-auto">
         {TvDetails.poster_path == null
           ?<div className='img-container mx-2 bg-blue-500 bg-opacity-40 min-w-[220px] h-[330px] rounded-xl flex justify-center items-center'>
             NO POSTER AVAILABLE
