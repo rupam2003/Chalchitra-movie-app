@@ -26,7 +26,7 @@ const page = async ({params}) => {
     className=" h-screen bg-no-repeat bg-cover bg-center  overflow-y-scroll"
     style={movieDetails.backdrop_path!=null?{ backgroundImage:`linear-gradient(#04152df1,#04152df1),url(${img_base_url + movieDetails.backdrop_path})`}:{}}>
       <Header/>
-      <article className="card-container detail-page flex m-auto">
+      <article className="detail-page flex m-auto">
         
     { movieDetails.poster_path == null
       ?<div className='img-container mx-2 bg-blue-500 bg-opacity-40 min-w-[220px] h-[330px] rounded-xl flex justify-center items-center'>
