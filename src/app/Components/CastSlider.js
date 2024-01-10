@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FaArrowRight,FaArrowLeft} from "react-icons/fa";
 const CastSlider = (props) => {
     const id = props.sliderId
-    const img_base_url = 'http://www.themoviedb.org/t/p/w220_and_h330_face'
+    const img_base_url = 'https://www.themoviedb.org/t/p/w220_and_h330_face'
 
 
 
