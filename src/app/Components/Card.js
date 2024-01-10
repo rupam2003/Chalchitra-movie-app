@@ -16,7 +16,7 @@ const Card = (props) => {
     date =  `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
   }
 
-  const img_base_url = 'http://www.themoviedb.org/t/p/w220_and_h330_face'
+  const img_base_url = 'https://www.themoviedb.org/t/p/w220_and_h330_face'
   
   
   return (
