@@ -17,7 +17,7 @@ const page = async ({params}) => {
         <Header/>
         <article
             style={TvDetails.backdrop_path!=null?{ backgroundImage:`linear-gradient(#000000b1,#000000b1,#000000b1,#04152d),url(${img_base_url + TvDetails.backdrop_path})`}:{}}
-            className="bg-no-repeat bg-center min-h-[550px] detail-page flex items-center">
+            className="bg-no-repeat bg-cover bg-center min-h-[550px] detail-page flex items-center">
         {TvDetails.poster_path == null
           ?<div className='mt-2 mx-7 img-container bg-blue-500 bg-opacity-40 min-w-[300px] h-[450px] rounded-xl flex justify-center items-center'>
             NO POSTER AVAILABLE
