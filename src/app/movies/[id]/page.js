@@ -19,7 +19,7 @@ const page = async ({params}) => {
   
 
   const img_base_url = 'https://image.tmdb.org/t/p/w1280/'
-  const img_base_url_lowQuality = 'http://www.themoviedb.org/t/p/w300_and_h450_face'
+  const img_base_url_lowQuality = 'https://www.themoviedb.org/t/p/w300_and_h450_face'
   return (
     
     <div className='h-screen overflow-y-scroll'>
