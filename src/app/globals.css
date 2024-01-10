@@ -1,0 +1,88 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+:root{
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color:transparent
+}
+
+body{
+
+ 
+  background-color: #04152d;
+  /* background-color: #04152d; */
+ /* background-image: linear-gradient(to right,#100e1b,#171635); */
+  color: white;
+  
+}
+.no-scrollbar{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none; 
+}
+.loading-bar{
+  background-image: linear-gradient(to right,rgb(59,130,246,0.3),rgb(59,130,246,0.6),rgb(59,130,246,0.3));
+  background-size: 500px 500px;
+  border-radius: 0.75rem;
+  animation: loading 2s infinite linear;
+}
+
+button{
+  z-index: 10;
+  opacity: 0.7;
+}
+p{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+
+
+
+
+@keyframes loading {
+  0%{
+      background-position: -500px 0;
+  }
+  100%{
+    background-position: 500px 0;
+}
+  
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  
+ /* to remove the min-width: property */
+  #input{
+    min-width: 0;
+  }
+}
+
+/* for phones */
+@media screen and (max-width: 650px) {
+  .detail-page{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .details{
+    margin-left: 20px;
+  }
+  
+  .img-container{
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
