@@ -26,7 +26,7 @@ const page = async ({params}) => {
       <Header/>
       <article
       style={movieDetails.backdrop_path!=null?{ backgroundImage:`linear-gradient(#000000b1,#000000b1,#000000b1,#04152d),url(${img_base_url + movieDetails.backdrop_path})`}:{}}
-       className=" bg-no-repeat bg-center min-h-[550px] detail-page flex items-center">
+       className=" bg-no-repeat bg-cover bg-center min-h-[550px] detail-page flex items-center">
         
     { movieDetails.poster_path == null
       ?<div className='img-container mx-7 mt-2 bg-blue-500 bg-opacity-40 min-w-[220px] h-[330px] rounded-lg flex justify-center items-center'>
