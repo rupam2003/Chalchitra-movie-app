@@ -16,10 +16,10 @@ const Header = () => {
   }
   return (
     <header className='bg-black'>
-        <section className=' flex py-2 justify-between'>
+        <section className=' flex py-2 items-center justify-between'>
         <Link href={'/'}  className='flex font-bold  ml-5 text-2xl'>
-          <div>
-            <Image quality={100} src="/images.png" width={80} height={35}/>
+          <div className='w-[90px] h-[40px] relative'>
+            <Image quality={100} src="/images.png" fill/>
           </div>
           </Link>
           <form className='mx-2' onSubmit={handleSubmit}> 
