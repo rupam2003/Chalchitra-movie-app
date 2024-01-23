@@ -19,7 +19,7 @@ const Header = () => {
         <section className=' flex py-2 justify-between'>
         <Link href={'/'}  className='flex font-bold  ml-5 text-2xl'>
           <div>
-            <Image quality={100} src="/images.png" width={80} height={50}/>
+            <Image quality={100} src="/images.png" width={80} height={35}/>
           </div>
           </Link>
           <form className='mx-2' onSubmit={handleSubmit}> 
