@@ -82,7 +82,9 @@ p{
     align-self: center;
     margin-bottom: 10px;
   }
-  
+  .logo{
+    margin-left: 8px;
+  }
 }
 
 
