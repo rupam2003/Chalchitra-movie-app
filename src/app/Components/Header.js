@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className='bg-black'>
         <section className=' flex py-2 items-center justify-between'>
-        <Link href={'/'}  className='flex font-bold  ml-5 text-2xl'>
+        <Link href={'/'}  className='flex font-bold logo  ml-5 text-2xl'>
           <div className='w-[90px] h-[40px] relative'>
             <Image quality={100} src="/images.png" fill/>
           </div>
