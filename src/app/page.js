@@ -21,7 +21,7 @@ async function page() {
       
       <Header/>
       <HeroBanner/>
-      <div className=' mb-8'>
+      <div className=' mb-6'>
       <Slider type="movies" sliderId={"popular"} title = {"Popular Movies"} movies = {trendingmovies}/>
       <Slider type="movies" sliderId={"top"} title = {"Top-Rated Movies"} movies = {topMovies}/>
       <Slider type="tv" sliderId={"popularTv"} title = {"Popular Series"} movies = {trendingTv}/>
